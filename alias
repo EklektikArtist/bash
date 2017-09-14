@@ -4,6 +4,7 @@ alias cp='sudo cp'
 alias fdh='ls | grep $1'
 alias fdr='ls -lR | grep -E "$1" >> ./temp && python ~/Home/bash/fdr.py temp && rm temp'
 alias find='sudo find'
+alias gh='cd ~Home'
 alias ifdown='sudo ifconfig wlan0 down'
 alias ifup='sudo ifconfig wlan0 up'
 alias install='sudo apt-get install'
@@ -18,6 +19,7 @@ alias shutdown='sudo shutdown now'
 alias srch='~/Home/bash/search' $*
 alias tatt='tmux a -t' $*
 alias tnew='tmux new -s' $*
+alias toWin='cd "/mnt/c/Users/Micah Richards"'
 alias update='sudo apt-get update && sudo apt-get upgrade'
 alias weather='bash ~/Home/bash/Terminal-Weather-Radar-master/weather.sh'
 
