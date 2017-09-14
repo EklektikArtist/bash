@@ -1,10 +1,13 @@
+alias batt='~/Home/bash/battery'
 alias cl='clear'
 alias cp='sudo cp'
+alias fdh='ls | grep $1'
+alias fdr='ls -lR | grep -E "$1" >> ./temp && python ~/Home/bash/fdr.py temp && rm temp'
 alias find='sudo find'
-<<<<<<< HEAD
 alias ifdown='sudo ifconfig wlan0 down'
 alias ifup='sudo ifconfig wlan0 up'
 alias install='sudo apt-get install'
+alias ispeed='speedtest-cli'
 alias more='less'
 alias mv='sudo mv'
 alias nano='sudo nano'
@@ -12,27 +15,10 @@ alias ps='ps --forest'
 alias sa='source ~/.bashrc'
 alias scp='sudo scp'
 alias shutdown='sudo shutdown now'
-alias srch='~/Dropbox-Uploader/LTApps/search' $*
+alias srch='~/Home/bash/search' $*
 alias tatt='tmux a -t' $*
 alias tnew='tmux new -s' $*
 alias update='sudo apt-get update && sudo apt-get upgrade'
-alias ispeed='speedtest-cli'
-=======
-alias batt='~/bash/battery'
-alias fdh='ls | grep $1'
-alias fdr='ls -lR | grep -E "$1" >> ./temp && python ~/bash/fdr.py temp && rm temp'
-alias ifdown='sudo ifconfig wlan0 down'
-alias ifup='sudo ifconfig wlan0 up'
-alias install='sudo apt-get install' $*
-alias more='less'
-alias mv='sudo mv'
-alias nano='sudo nano'
-alias sa='source ~/.bashrc'
-alias scp='sudo scp'
-alias shutdown='sudo shutdown now'
-alias srch='~/bash/search'
-alias tatt='tmux a -t' $*
-alias tnew='tmux new -s' $*
-alias update='sudo apt-get update && sudo apt-get upgrade'
-alias weather='bash ~/bash/Terminal-Weather-Radar-master/weather.sh'
->>>>>>> 6f6762cf3564dd3bf7e43c35294258af024fe5c4
+alias weather='bash ~/Home/bash/Terminal-Weather-Radar-master/weather.sh'
+
+
