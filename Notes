@@ -1,0 +1,19 @@
+web browse is epiphany
+
+=========================================================
+switch between TFT and HDMI by replacing /boot/config.txt with
+   TFT - config.txt_TFT
+   HDMI - config.txt_HDMI
+
+then replace /boot/cmdline.txt with
+   TFT - cmdline.txt_TFT
+   HDMI - cmdline.txt_HDMI
+
+finally, start x with
+   TFT - startx -- -layout TFT  (tty1 must have booted on TFT screen for this to work)
+   HDMI - startx -- -layout HDMI  (works regardless of boot setup)
+
+=========================================================
+scp remote_username@remotehost:/directory/to/file.ext /some/local/directory
+scp 'remote_username@remotehost:/directory/to/"file with spaces.ext" /some/local/directory
+
