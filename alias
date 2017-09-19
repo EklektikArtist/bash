@@ -20,7 +20,9 @@ alias srch='~/Home/bash/search' $*
 alias tatt='tmux a -t' $*
 alias tnew='tmux new -s' $*
 alias toWin='cd "/mnt/c/Users/Micah Richards"'
+alias uninstall='sudo apt-get remove'
 alias update='sudo apt-get update && sudo apt-get upgrade'
+alias upgrade='sudo apt-get upgrade'
 alias weather='bash ~/Home/bash/Terminal-Weather-Radar-master/weather.sh'
 
 
