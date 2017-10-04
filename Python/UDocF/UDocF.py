@@ -19,7 +19,7 @@ def main():
 		list.append(("Sub Pt 3", fSub3(line)))
 		printList(list)
 		selection = input("Selected option: ")
-		outputfile.write(str(list[selection[1]]) + "\r\n")
+		outputfile.write(str(list[selection]))
 		#blankRestOfScreen(4)
 
 def blankRestOfScreen(linesUsed):
